@@ -1,0 +1,28 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.2s ease-in-out;
+    margin: 0 1rem;
+  }
+  
+  .link:hover {
+    opacity: 0.8;
+  }
+  

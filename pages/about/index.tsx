@@ -1,6 +1,7 @@
 import React from "react";
 import App from "next/app";
 import { Box, Flex, Heading } from "@chakra-ui/react";
+import Image from 'next/image';
 
 const About: React.FC = () => {
   return (
@@ -19,10 +20,10 @@ const About: React.FC = () => {
         <Heading>こんにちわ</Heading>
         <Heading>大供克成です！</Heading>
         <Heading as="h1" size="xl" my={8} mx={4}>
-          西野カナとパンパンやってたらなってもうた二児の母
+          『西野カナとパンパンやってたらなってもうた二児の母』
         </Heading>
-
-  <img src="/profile.jpg" alt="プロフィール画像" />
+  <img src="./images/profile.jpg" alt="プロフィール画像" />
+  
 </Box>
         
     </Flex>
