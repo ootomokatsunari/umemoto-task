@@ -1,17 +1,15 @@
-// import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import { AppProps } from "next/app";
 import Link from "next/link";
 
-function App() {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div>
       <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
+        <Link href="/"> Home</Link>
       </nav>
-      <h1>Hello World!</h1>
-    </>
+      <Component {...pageProps} />
+      <Link href="/about">About</Link>
+    </div>
   );
 }
-
-export default App;
+export default MyApp;

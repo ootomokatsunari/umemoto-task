@@ -22,7 +22,7 @@ mx="auto"
 <Text fontSize="md">
 © {new Date().getFullYear()} My Website. All rights reserved.
 </Text>
-<NextLink href="/">
+<NextLink href="pages/about">
 <Link fontSize="md" ml={[0, 4]}>
 Top
 </Link>

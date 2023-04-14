@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "explorer.confirmDelete": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "window.zoomLevel": -1,
+    "workbench.editorAssociations": {
+        "*.vsix": "default"
+    }
+}

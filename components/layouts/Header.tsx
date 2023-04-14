@@ -46,7 +46,7 @@ const Header: React.FC = () => {
       >
         <Flex align="center" justify="flex-end">
           <Box mr={6}>
-            <NextLink href="/about">
+            <NextLink href="pages/about">
               <Link>About</Link>
             </NextLink>
           </Box>
