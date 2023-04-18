@@ -1,5 +1,6 @@
 import { ChakraProvider } from "@chakra-ui/react"
 import { Global, css } from "@emotion/react"
+import Sidebar from "../components/Sidebar";
 
 const GlobalStyle = ({ children }) => (
   <>
