@@ -14,6 +14,7 @@ import { FiInstagram } from "react-icons/fi";
 import axios from "axios";
 import { ChangeEvent, useState } from "react";
 import { GetServerSideProps } from "next";
+import React from "react";
 
 type Zipcode = {
   main: string;
